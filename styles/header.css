@@ -50,6 +50,6 @@ header {
 
 @media (width <= 48em) {
     header {
-        padding-inline: 1.5rem;
+        padding-inline: 1.5rem ;
     }
 }
