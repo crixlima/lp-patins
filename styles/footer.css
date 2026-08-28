@@ -98,3 +98,28 @@ footer {
         }
     }
 }
+
+@media (width <= 48em) {
+
+    footer {
+       display: flex;
+       flex-direction: column;
+     
+       align-items: flex-start;
+    
+       gap:3rem;
+
+        & nav {
+        display: flex;
+        flex-direction: column;
+       }
+
+       & .social-links > a {
+         margin: 0;
+
+         display: flex;
+         justify-content: flex-start;
+       }
+      
+    }
+}
