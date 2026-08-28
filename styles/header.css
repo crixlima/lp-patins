@@ -48,8 +48,13 @@ header.top {
     }
 }
 
-@media (width <= 48em) {
+@media (max-width: 480px) {
     header.top {
-        padding-inline: 1.5rem ;
+        padding: 1rem 1.25rem;
+    }
+
+    header.top img {
+        width: 1.75rem;
+        height: 1.75rem;
     }
 }

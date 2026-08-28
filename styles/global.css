@@ -54,3 +54,8 @@ a {
     text-decoration: none;
 }
 
+@media (max-width: 480px) {
+    :root {
+        --text-lg: 1.75rem;
+    }
+}
