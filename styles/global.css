@@ -31,9 +31,7 @@ html, button{
     font: 500 1rem/1.5 var(--ff-base);
 }
 
-/* html {
-    zoom: .5;
-} */
+
 
 h1, h2 {
     font-family: 'Syne', sans-serif;
@@ -54,8 +52,9 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 480px) {
-    :root {
-        --text-lg: 1.75rem;
+@media (width <= 48em) {
+    html,
+    body {
+        overflow-x: hidden;
     }
 }

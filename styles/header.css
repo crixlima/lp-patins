@@ -48,7 +48,7 @@ header.top {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 48em) {
     header.top {
         padding: 1rem 1.25rem;
     }
